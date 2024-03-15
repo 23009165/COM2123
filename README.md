@@ -15,7 +15,7 @@ double COE;
 cin>>COE;
 double EXP = TCM+S+R+COE;
 double Profit_D = TCM*0.1;
-double PROFIT_N = Profit_D*0.85;
+double PROFIT_N = Profit_D/0.85;
 double marked_up = (PROFIT_N + EXP)/TCM;
 cout<<"The merchandise should be marked up to R"<<marked_up<<" for the desired profit."<<endl;
 return 0;
